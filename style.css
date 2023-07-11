@@ -1,0 +1,301 @@
+ /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.white{
+    width: 550px;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 100px;
+    box-shadow:  0 0 5px rgb(0, 0, 0);
+    box-shadow: 0 0 25px rgb(0, 0, 0);
+}
+.lol h2{
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 489px;
+    font-size: 20px;
+}
+.lo h2{
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 489px;
+    font-size: 20px;
+}
+.remmeber p{
+    margin-top: -20px;
+    margin-right:410px;
+}
+.yellow{
+    width: 550px;
+    background-color: yellow;
+    height: 45px;
+    margin-top: 19px;
+    position: fixed;
+}
+.yellow h3{
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.forgot h4 a{
+    margin-top:100px;
+    margin-left: -70px;
+    position: fixed;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.forget h4 a{
+    margin-top:150px;
+    margin-left: -90px;
+    position: fixed;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.awais h1 a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.yellow h3 a{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media (max-width:786px) and (min-width:400px) {
+    .white {
+        width: 410px;
+        margin-left: -1px !important;
+        position: fixed;
+    }
+    input{
+    width: 404px!important;
+    }
+    .yellow{
+        width: 400px;
+    }
+    .remmeber{
+        margin-left:  30px;
+    }
+    .remmeber input{
+    margin-left: -220px;
+    margin-top: 15px;
+    }
+}
+
+@media (max-width:1024px) and (min-width:787px) {
+    .white{
+
+    }
+}
+ */
+*{
+    margin: 0;
+    padding: 0;
+}
+ body{
+    background-image: url('./bd228e81676107.5d4805bf32932.gif');
+    /* height: 60vh; */
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+ .login {
+    width: 799px;
+    height: 425px;
+    background-color: #000000;
+    margin-top: 220px;
+    margin-left: 600px;
+    border-radius: 12px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.login h1{
+    color: rgb(255, 255, 255);
+    margin-left: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    font-weight: 900;
+}
+.login h1:hover{
+    color: rgb(125, 116, 117);
+}
+.login p{
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-top: 35px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    font-weight: 900;
+}
+.login input{
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+    width: 740px;
+    height: 30px;
+}
+::placeholder{
+    color: rgb(0, 0, 0);
+}
+.btnbox{
+    background-color: #4400ff;
+    height: 35px;
+    margin-top: 40px;
+    width: 740px;
+    margin-left: 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.btnbox :hover{
+    background-color: white;
+    color: #000000;
+}
+.login h4{
+    color: white;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 220px;
+    margin-top: 32px;
+}
+.login h4 a{
+    color: rgb(72, 0, 255);
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    margin: 2px;
+} 
+@media (max-width:500px) {
+    .login{
+        margin-left: -2px;
+        width: 500px !important;
+    }
+    .login h1{
+        margin-left: 200px;
+    }
+    .login input{
+        width: 500px !important;
+        margin-left: -2px;
+    }
+    .login p{
+        margin-left: 3px;
+    }
+    .login h5{
+        width: 500px;
+    }
+    .btnbox{
+        width: 500px;
+        margin-left: 0px;
+    }
+    .login h4{
+margin-left: 78px;
+font-size: 20px;
+    }
+}
+@media (min-width:501px) and (max-width:768px){
+    .login{
+        margin-left: -1px;
+        width: 768px !important;
+    }
+    .login h1{
+        margin-left: 330px;
+    }
+    .login input{
+        width: 768px;
+        margin-left: -2px;
+    }
+    .login p{
+        margin-left: 3px;
+    }
+    .login h5{
+        width: 768px;
+    }
+    .btnbox{
+        width: 768px;
+        margin-left: 0px;
+    }
+    .login h4{
+margin-left: 220px;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+    .login{
+        margin-left: 376px;
+        width: 600px;
+        height: 276px;
+        margin-top: 261px;
+    }
+    .login h1{
+        margin-left: 255px;
+    }
+    .login input{
+        width: 600px;
+        margin-left: -2px;
+    }
+    .login p{
+        margin-left: 3px;
+        margin-top: 3px !important;
+    }
+    .login h5{
+        width: 700px;
+    }
+    .btnbox{
+        width: 600px;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .login h4{
+margin-left: 142px;
+margin-top: 14px;
+    }
+}
+
+
+
+
+@media (min-width:0px) and (max-width:400px){
+    .login{
+        margin-left: 376px;
+        width: 600px;
+        height: 276px;
+        margin-top: 261px;
+    }
+    .login h1{
+        margin-left: 255px;
+    }
+    .login input{
+        width: 600px;
+        margin-left: -2px;
+    }
+    .login p{
+        margin-left: 3px;
+        margin-top: 3px !important;
+    }
+    .login h5{
+        width: 700px;
+    }
+    .btnbox{
+        width: 600px;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    .login h4{
+margin-left: 142px;
+margin-top: 14px;
+    }
+}
